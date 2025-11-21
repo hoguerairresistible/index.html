@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoguera | Refinadamente irresistible</title>
+
+    <!-- Fuente Cinzel -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #000000;
+            margin-top: 60px;
+        }
+
+        h1 span {
+            color: #7a1a1a; /* rojo vino para la llama */
+        }
+
+        p {
+            color: #444444;
+            font-size: 18px;
+        }
+
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 350px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #000000;
+            color: #D4AF37; /* dorado elegante */
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px solid #D4AF37;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #7a1a1a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HOGUERA <span>🔥</span></h1>
+    <p>Refinadamente irresistible</p>
+
+    <!-- Botón catálogo PDF -->
+    <a class="button" href="HOGUERA.pdf" target="_blank">📄 Ver mi catálogo</a>
+
+    <!-- Botón Instagram Direct -->
+<a class="button" href="https://ig.me/m/hoguera.irresistible" target="_blank">
+    ✨ Instagram Direct
+</a>
+
+    <!-- Botón WhatsApp -->
+    <a class="button" href="https://wa.me/17207580740?text=hola!!%20quiero%20realizar%20un%20pedido%20🔥" target="_blank">
+        💬 WhatsApp
+    </a>
+
+</body>
+</html>
